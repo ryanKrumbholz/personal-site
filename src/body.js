@@ -2,6 +2,7 @@ import React from 'react';
 import './body.sass';
 
 const resume = require('./assets/resume.png')
+const resume_pdf = require('./assets/resume.pdf')
 
 function body() {
     return (
@@ -34,7 +35,7 @@ function body() {
                 <h1>Experience</h1>
                 <p></p>
                 <div className="resume">
-                    <a href="\about page/assets/resume.pdf"><img src={resume}/><p>resume</p></a>
+                    <a href={resume_pdf}><img src={resume}/><p>resume</p></a>
                 </div>
         </div>
         <div className="projects" id="projects">
