@@ -1,0 +1,41 @@
+$bg-color: #161925;
+$primary-color: #46a0fa;
+$accent-color: #436c96;
+$hover-color: gray;
+
+body
+    font-family: 'Open Sans', sans-serif
+    background-color: $bg-color
+    margin: 0 auto
+    scroll-behavior: auto
+
+p, li
+    font-size: 18px
+
+p 
+    color: $accent-color
+
+li  
+    color: $primary-color
+
+h1, h2, a 
+    color: $primary-color
+
+a 
+    font-size: 18px
+    text-decoration: none
+
+a:visited 
+    color: $primary-color
+
+a:hover 
+    color: lightgray
+
+@media only screen and (max-width: 1080px) 
+    h1 
+        font-size: 5vmax
+    
+    .sidebar 
+        margin-left: 87.5vw
+    
+    

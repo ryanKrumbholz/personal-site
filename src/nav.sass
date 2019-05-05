@@ -1,0 +1,51 @@
+
+.head
+    margin: auto
+    display: flex
+    height: 75px
+    width: 90%
+
+.logo 
+    margin-top: auto
+    margin-bottom: auto
+    margin-right: auto
+
+.logo img
+    height: 55px
+
+ul 
+    margin-top: auto
+    margin-bottom: auto
+    margin-left: auto
+    display: flex
+    padding-right: 1vw
+
+.head li 
+    list-style-type: none
+    padding-left: 1vw
+
+.hamburger
+    visibility: hidden
+
+.hamburger img
+    height: 0px
+
+@media only screen and (max-width: 1080px)
+    .head li 
+        visibility: hidden
+    
+    .head
+        width: 100%
+
+    .hamburger
+        position: absolute
+        right: 0
+        padding-right: 10px
+        visibility: visible
+
+    .hamburger img
+        padding-top: 15px
+        height: 40px
+    
+    ul 
+        flex-direction: column
