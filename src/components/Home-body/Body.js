@@ -4,8 +4,7 @@ import './Body.sass';
 const resume_logo = require('../../assets/resume.png')
 const resume_pdf = require('../../assets/resume.pdf')
 
-function body() {
-    return (
+const body = props => (
         <div className="container">
             <div className="hero">
                 <h1>Ryan Krumbholz</h1>
@@ -52,7 +51,6 @@ function body() {
                 <a href="mailto:rak535@nyu.edu">Contact me</a>
         </div>
     </div>
-    )
-}
-
+    );
+    
 export default body;

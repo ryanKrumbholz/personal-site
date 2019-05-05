@@ -1,0 +1,44 @@
+$bg-color: #161925;
+
+.side-drawer
+    visibility: hidden
+    margin: auto
+    right: 0
+    background-color: $bg-color
+    width: 45vmax
+    height: 100%
+    display: flex
+    flex-direction: column
+    position: fixed
+    z-index: 10
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5)
+    transform: translatex(100%)
+    transition: transform 0.3s ease-out
+
+.side-drawer ul 
+    margin-right: auto
+    padding-right: 15%
+    display: flex
+    flex-direction: column
+
+.side-drawer li 
+    padding-bottom: 24px
+    list-style-type: none
+    text-align: center
+
+.side-drawer a 
+    font-size: 30px
+
+.side-drawer h1 
+    font-size: 36px
+
+.x-button
+    margin-left: auto
+    padding-right: 5vmax
+
+.side-drawer.open 
+    transform: translatey(0)
+
+@media only screen and (max-width: 1080px)
+    .side-drawer
+        visibility: visible

@@ -1,12 +1,10 @@
 import React from 'react';
 import './Footer.sass';
 
-function foot() {
-    return (
+const footer = props => (
         <footer>
                 <p>Created by Ryan Krumbholz</p>
         </footer>
-    )
-}
+);
 
-export default foot;
+export default footer;
