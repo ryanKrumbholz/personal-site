@@ -1,9 +1,8 @@
 import React from 'react';
-import './index.sass';
-import './nav.sass';
+import './Navbar.sass';
 
-const logo = require('./assets/rk.png')
-const hamburger = require('./assets/hamburger.png')
+const logo = require('../../assets/rk.png')
+const hamburger = require('../../assets/hamburger.png')
 
 function nav() {
     return (

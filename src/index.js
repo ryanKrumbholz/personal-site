@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.sass';
-import nav from './nav-bar';
-import body from './body';
-import sidebar from './sidebar';
-import foot from './foot';
 import * as serviceWorker from './serviceWorker';
+
+import Navbar from './components/Navbar/Navbar';
+import Body from './components/Home-body/Body';
+import Sidebar from './components/Sidebar/Sidebar';
+import Footer from './components/Footer/Footer';
 
 function render() {
     return [
-        nav(), body(), sidebar(), foot()
+        Navbar(), Body(), Sidebar(), Footer()
     ];
 }
 

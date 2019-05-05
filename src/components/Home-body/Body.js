@@ -1,8 +1,8 @@
 import React from 'react';
-import './body.sass';
+import './Body.sass';
 
-const resume_logo = require('./assets/resume.png')
-const resume_pdf = require('./assets/resume.pdf')
+const resume_logo = require('../../assets/resume.png')
+const resume_pdf = require('../../assets/resume.pdf')
 
 function body() {
     return (

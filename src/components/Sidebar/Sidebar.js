@@ -1,10 +1,10 @@
 import React from 'react';
-import './sidebar.sass';
+import './Sidebar.sass';
 
-const link_logo = require("./assets/link_logo.png")
-const github_logo = require("./assets/github_logo.png")
-const ig_logo = require("./assets/ig_logo.png")
-const mail_logo = require("./assets/mail_logo.png")
+const link_logo = require("../../assets/link_logo.png")
+const github_logo = require("../../assets/github_logo.png")
+const ig_logo = require("../../assets/ig_logo.png")
+const mail_logo = require("../../assets/mail_logo.png")
 
 function sidebar() {
     return (
