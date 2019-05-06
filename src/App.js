@@ -10,9 +10,8 @@ import './index.sass';
 
 class App extends Component {
     state = {
-      sideDrawerOpen: false
+      sideDrawerOpen: false,
     };
-
 
   drawerToggleClickerHandler = () => {
       this.setState((prevState) => {

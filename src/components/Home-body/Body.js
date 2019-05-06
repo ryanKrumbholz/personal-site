@@ -1,5 +1,6 @@
 import React from 'react';
 import './Body.sass';
+import Carousel from '../Carousel/Carousel';
 
 const resume_logo = require('../../assets/resume.png')
 const resume_pdf = require('../../assets/resume.pdf')
@@ -16,7 +17,7 @@ const body = props => (
             </div>
         <div className="about" id="about">
                 <h1>About Me</h1>
-                <p>My name is Ryan Krumbholz. I am a computer science major at NYU, className of 2021. I pride myself in being hardworking, reliable, and team oriented. I'm currently seeking an opportunity in mobile development, full-stack development, and/or machine learning.<br/><br/> Below are some of the technologies I am familiar with:</p>
+                <p>My name is Ryan Krumbholz. I am a computer science major at NYU, class of 2021. I pride myself on being hardworking, reliable, and team oriented. I'm currently seeking an opportunity in mobile development, full-stack development, and/or machine learning.<br/><br/> Below are some of the technologies I am familiar with:</p>
                 <div className="skills">
                     <ul className="skills-column1">
                             <li>Python</li>
@@ -40,9 +41,8 @@ const body = props => (
         <div className="projects" id="projects">
                 <h1>Projects</h1>
                 <p></p>
-                <div className="featured-1">
-                </div>
-                <div className="featured-2">
+                <div className="carousel">
+                        <Carousel/>
                 </div>
         </div>
         <div className="contact" id="contact">
