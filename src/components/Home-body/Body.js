@@ -1,6 +1,7 @@
 import React from 'react';
 import './Body.sass';
 import Carousel from '../Carousel/Carousel';
+import Experience from '../Experience/Experience';
 
 const resume_logo = require('../../assets/resume.png')
 const resume_pdf = require('../../assets/resume.pdf')
@@ -33,9 +34,9 @@ const body = props => (
         </div>
         <div className="experience" id="experience">
                 <h1>Experience</h1>
-                <p></p>
+                <Experience/>
                 <div className="resume">
-                    <a href={resume_pdf}><img src={resume_logo}/><p>resume</p></a>
+                    <a href={resume_pdf}><h2>Resume</h2><img src={resume_logo}/></a>
                 </div>
         </div>
         <div className="projects" id="projects">

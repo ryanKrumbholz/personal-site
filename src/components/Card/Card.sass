@@ -5,15 +5,15 @@ $primary-color: #46a0fa;
     .card
         height: 30vh
         width: 45vw
-        margin: auto
+        margin: autogit
 
     .card img
-
         position: relative
         left: 35%
         width: 640px
         height: 360px
         transition: transform 0.3s ease-out
+        box-shadow: 5px 10px rgba(0,0,0,0.1)
     
     .card:hover .text
         transform: translateX(15%)
@@ -37,6 +37,9 @@ $primary-color: #46a0fa;
         height: 30ch
         z-index: 1
         transition: transform 0.3s ease-out
+    
+    .text img
+        box-shadow: 5px 10px rgba(0,0,0,0)
 
     .links
         position: relative
@@ -80,7 +83,9 @@ $primary-color: #46a0fa;
     border-style: solid
     border-color: $primary-color
     border-width: 2px
-    box-shadow: rgba(0,0,0,0.3)
+    box-shadow: 5px 10px rgba(0,0,0,0.1)
+
+
 
 .text h1, .text p
         padding-left: 2%
