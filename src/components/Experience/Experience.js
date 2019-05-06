@@ -6,7 +6,7 @@ const experience = () => {
     return (
         <div className="experience-section">
             <ExperienceElem title="Computer Science TA"
-                    company="Seattle Central College" desc="desc"/>
+                    company="Seattle Central College" desc="Assisted in teaching the fundamentals of computer science and OOP. Languages used: Python and Java."/>
         </div>
     )
 }
