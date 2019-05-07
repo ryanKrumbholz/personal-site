@@ -9,13 +9,18 @@ const body = props => (
                 <h1>Ryan Krumbholz</h1>
                 <h2>Computer Science Major @ NYU 21'</h2>
                 <p> My goal is to make the world a more connected place through technology.<br/>
-                    I'm interested in pursuing a career in one of these fields: full-stack development, mobile development, or machine learning.
+                    I'm interested in pursuing a career in one of these fields: front-end development,
+                     mobile development, or machine learning.
                 </p>
                 <a href="mailto:rak535@nyu.edu">Contact Me</a>
             </div>
         <div className="about" id="about">
                 <h1>About Me</h1>
-                <p>My name is Ryan Krumbholz. I am a computer science major at NYU, class of 2021. I pride myself on being hardworking, reliable, and team oriented. I'm currently seeking an opportunity in mobile development, full-stack development, and/or machine learning.<br/><br/> Below are some of the technologies I am familiar with:</p>
+                <p>I'm Ryan. I pride myself on being hardworking, reliable, and team oriented. Some of
+
+                 my passions include basketball (go Hornets!), exploring, and having a positive impact 
+                 on other people's lives. In terms of computer science, I want to build tools that connect
+                  world.<br/><br/> Some of the technologies I have experience with are:</p>
                 <div className="skills">
                     <ul className="skills-column1">
                             <li>Python</li>
