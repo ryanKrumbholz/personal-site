@@ -1,1 +1,1 @@
-This repository showcases my website.
+Hello! This is the repo for my website. I built my website to showcase my projects and experience, and to familiarize myself with frontend development. Since I don't have a ton of experience with frontend development yet, some techniques that I used may be a bit "hacky", so beware if you decide to clone this repo.
