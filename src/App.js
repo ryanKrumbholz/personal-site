@@ -11,6 +11,8 @@ import './index.sass';
 class App extends Component {
     state = {
       sideDrawerOpen: false,
+      //going to need to update this code when adding more drawers in exp
+      expandableDrawerOpen: false
     };
 
   drawerToggleClickerHandler = () => {
@@ -23,6 +25,10 @@ class App extends Component {
     this.setState({sideDrawerOpen: false});
   };
 
+  expandableToggleHandler = () => {
+    this.setState({expandableDrawerOpen: !this.state.expandableDrawerOpen});
+  }
+
   render() {
     let backdrop;
 
@@ -34,7 +40,7 @@ class App extends Component {
         {backdrop}
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
         <Navbar drawerClickerHandler={this.drawerToggleClickerHandler} click={this.backdropClickHandler}/>
-        <Body/>
+        <Body expandableToggleHandler={this.expandableToggleHandler} show={this.state.expandableDrawerOpen}/>
         <Sidebar/>
         <Footer/>
       </div>
