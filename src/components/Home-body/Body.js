@@ -19,7 +19,7 @@ const body = props => (
                 <p>I'm Ryan. I pride myself on being hardworking, reliable, and team oriented. Some of
 
                  my passions include basketball (go Hornets!), exploring, and having a positive impact 
-                 on other people's lives. In terms of computer science, I want to build tools that connect
+                 on other people's lives. In terms of computer science, I want to build tools that connect the
                   world.<br/><br/> Some of the technologies I have experience with are:</p>
                 <div className="skills">
                     <ul className="skills-column1">
