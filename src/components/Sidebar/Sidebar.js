@@ -10,7 +10,7 @@ const sidebar = props => (
         <div className="sidebar" id="sidebar">
             <a href="https://linkedin.com/in/ryankrumbholz/"><img src={link_logo}/></a>
             <a href="https://github.com/ryanKrumbholz/"><img src={github_logo}/></a>
-            <a href="https://instagram.com/ryan_a_rawlings/"><img src={ig_logo}/></a>
+            {/* <a href="https://instagram.com/ryan_a_rawlings/"><img src={ig_logo}/></a> */}
             <a href="mailto:rak535@nyu.edu"><img src={mail_logo}/></a>
         </div>
     );
