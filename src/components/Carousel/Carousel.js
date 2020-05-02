@@ -13,7 +13,7 @@ const carousel = props => (
             github_link="https://github.com/ryanKrumbholz/mathup-app" link="https://github.com/ryanKrumbholz/mathup-app"/>
         <Card img={require('../../assets/expensey.png')} title="Expensey" desc="Currently developing an Expensify clone
         with the MERN stack." github_logo={require('../../assets/github_logo.png')} link_logo={require('../../assets/link.png')}
-        github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://github.com/ryanKrumbholz/expensify-clone"/>
+        github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://expensey.app"/>
     </div>
 );
 
