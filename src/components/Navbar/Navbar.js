@@ -8,7 +8,7 @@ let drawerButton = document.getElementsByClassName("hamburger")
 
 const navbar = props => (
             <div className="head">
-                <a className="logo" href="index.html"><img src={logo}/></a>
+                <a className="logo" href="/"><img src={logo}/></a>
                 <ul>
                     <li><button type="button" onClick={props.drawerClickerHandler} className="hamburger" ><img src={hamburger}/></button></li>
                     <li><h2><a href="index.html">Home</a></h2></li>
