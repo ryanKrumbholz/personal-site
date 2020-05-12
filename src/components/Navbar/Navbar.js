@@ -11,7 +11,7 @@ const navbar = props => (
                 <a className="logo" href="/"><img src={logo}/></a>
                 <ul>
                     <li><button type="button" onClick={props.drawerClickerHandler} className="hamburger" ><img src={hamburger}/></button></li>
-                    <li><h2><a href="index.html">Home</a></h2></li>
+                    <li><h2><a href="/">Home</a></h2></li>
                     <li><h2><a href="#about">About</a></h2></li>
                     <li><h2><a href="#experience" >Experience</a></h2></li>
                     <li><h2><a href="#projects">Projects</a></h2></li>
