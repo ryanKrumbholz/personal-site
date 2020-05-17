@@ -9,15 +9,12 @@ const experience = props => {
     return (
         <div className="experience-section">
             <ul>
-                <li><ExperienceElem expandableToggle={props.expandableToggleHandler} show={props.show} title="Computer Science TA"
-                    company="Seattle Central College - 2018" desc="Assisted in teaching the fundamentals of computer science and OOP. Languages used: Python and Java.
-                     Responsibilities: reinforce fundamentals of programming with students that needed assistance, assist students via email, and occasionally
+                <li><ExperienceElem expandableToggle={props.expandableToggleHandler} show={props.show} title="Computer Science TA" skills="Python, Java, & OOP"
+                    company="Seattle Central College, Seattle,Wa, 2018" desc="Assisted in teaching the fundamentals of computer science and OOP."
+                     responsibilities = "Reinforce fundamentals of programming with students that needed assistance, assist students via email, and occasionally
                       lecture about the fundamentals of programming."/>
                 </li>
                 <li>
-                    <a href={resume_pdf}>
-                        <ExperienceElem title="Resume"/>
-                    </a>
                 </li>
             </ul>
             </div>

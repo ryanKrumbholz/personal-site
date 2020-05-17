@@ -1,19 +1,25 @@
-$bg-color: #161925;
-$primary-color: #46a0fa;
-$accent-color: #436c96;
+$bg-color: #0A2239;
+$primary-color: #F3F3F4;
+$accent-color: #C1C1C1;
 $hover-color: gray;
 
 body
     font-family: 'Open Sans', sans-serif
+    font-weight: 300
     background-color: $bg-color
     margin: 0 auto
     scroll-behavior: auto
+
+h1, h2, h3, h4, h5, h6 
+ font-family: 'Archivo', sans-serif
+ font-weight: 500
+
 
 p, li
     font-size: 18px
 
 p 
-    color: $accent-color
+    color: $primary-color
 
 li  
     color: $primary-color
@@ -29,7 +35,7 @@ a:visited
     color: $primary-color
 
 a:hover 
-    color: lightgray
+    color: $accent-color
 
 @media only screen and (max-width: 1080px) 
     h1 

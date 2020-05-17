@@ -1,6 +1,6 @@
-$bg-color: #161925;
-$primary-color: #46a0fa;
-$accent-color: #436c96;
+$bg-color: #0A0908;
+$primary-color: #F3F3F4;
+$accent-color: #C1C1C1;
 $hover-color: gray;
 
 .container 
@@ -13,24 +13,26 @@ $hover-color: gray;
     display: flex
     flex-direction: column
     margin: auto
-
-.about, .experience, .contact, .hero, .projects 
-    padding-top: 15vh
-    padding-bottom: 25vh
+    padding-top: 10vh
+    padding-bottom: 0vh
     width: 65%
+    height: fit-content
+
+.about, .experience, .contact, .projects
+    padding-top: 10vh
+    padding-bottom: 10vh
+    width: 65%
+    height: fit-content
     margin: auto
 
 .about h1, .experience h1, .projects h1, .contact h1 
-    border-bottom: $primary-color solid 1px   
+    border-bottom: $accent-color solid 1px   
 
-.about li 
-    color: $accent-color
 
 .hero h1 
-    /* text-decoration-line: underline */
     margin-top: auto
     margin-bottom: auto
-    font-size: 7ch
+    font-size: 9ch
     padding-bottom: .5vh
 
 .hero h2 
@@ -42,23 +44,10 @@ $hover-color: gray;
 .hero p 
     margin-top: auto
     margin-bottom: auto
-    padding-bottom: 5vh
+
 
 .contact p 
     padding-bottom: 5vh
-
-.hero a, .contact a
-    font-size: 18px 
-    box-lines: 1
-    line-height: 1
-    border-width: .2ch
-    border-color: $primary-color
-    border-style: solid
-    padding-top: 20px
-    padding-bottom: 20px
-    padding-left: 30px
-    padding-right: 30px
-    width: fit-content
 
 .hero a:hover, .contact a:hover 
     background: $accent-color
@@ -86,7 +75,16 @@ $hover-color: gray;
 .skills ul 
     display: flex
     flex-direction: column
-    margin: auto
+    height: 0
+
+.skills li 
+
+    border-radius: 50px
+    width: 100px
+    margin-bottom: 1vh
+    
+
+
 
 @media only screen and (max-width: 1080px)     
     .hero h1 
