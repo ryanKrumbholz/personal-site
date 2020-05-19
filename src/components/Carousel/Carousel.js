@@ -10,7 +10,7 @@ const carousel = props => (
             github_link="https://github.com/ryanKrumbholz/trump-twitter-tracker" link="https://twitter.com/trumptrackernow" skills="Python & Twitter API"/>
         <div id="card2">
         <Card img={require('../../assets/expensey.png')} title="Expensey" desc="Expense tracking web app for individuals and small businesses." github_logo={require('../../assets/github_logo.png')} link_logo={require('../../assets/link.png')}
-        github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://expensey.app" skills="React, Express, Mongo, Redux, & Node"/>
+        github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://www.expensey.app" skills="React, Express, Mongo, Redux, & Node"/>
         </div>
     </div>
 );
