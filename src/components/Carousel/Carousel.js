@@ -12,6 +12,10 @@ const carousel = props => (
         <Card img={require('../../assets/expensey.png')} title="Expensey" desc="Expense tracking web app for individuals and small businesses." github_logo={require('../../assets/github_logo.png')} link_logo={require('../../assets/link.png')}
         github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://www.expensey.app" skills="React, Express, Mongo, Redux, & Node"/>
         </div>
+        <div id="card3">
+        <Card img={require('../../assets/res-builder.png')} title="Res-Builder" desc="Resume auto formatter. Enter data in given fields and have a preformatted resume." github_logo={require('../../assets/github_logo.png')} link_logo={require('../../assets/link.png')}
+        github_link="https://github.com/ryanKrumbholz/res-builder" link="https://pedantic-johnson-8da5de.netlify.app/" skills="React & Javascript"/>
+        </div>
     </div>
 );
 
