@@ -11,17 +11,19 @@ let link;
 let skills;
 
 const card = props => {
-    const assign = (
-    img = props.img,
-    title = props.title,
-    skills = props.skills,
-    desc = props.desc,
-    github_logo = props.github_logo,
-    link_logo = props.link_logo,
-    github_link = props.github_link,
+    const assign = () => {
+    img = props.img
+    title = props.title
+    skills = props.skills
+    desc = props.desc
+    github_logo = props.github_logo
+    link_logo = props.link_logo
+    github_link = props.github_link
     link = props.link
-    );
+}
 
+    assign();
+    
     return (
     <div className="card">
         <img src={img} alt="Ryan Krumbholz's project"/>
