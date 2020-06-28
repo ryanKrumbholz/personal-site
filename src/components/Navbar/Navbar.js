@@ -16,7 +16,7 @@ const navbar = props => {
                     <li><h2><a href={resume_pdf} target="_blank">Resume</a></h2></li>
                     <li><h2><a href="#projects">Projects</a></h2></li>
                     <li><h2><a href="#experience" >Experience</a></h2></li>
-                    <li><h2><a href="mailto:rak535@nyu.edu" target="_blank">Contact</a></h2></li>
+                    <li><h2><a href="mailto:krumbholz98@gmail.com" target="_blank">Contact</a></h2></li>
                     
                 </ul> 
                     
