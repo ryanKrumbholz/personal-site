@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 import { createRequireFromPath } from 'module';
 
 const carousel = props => (
-    <div>
+    <div class="cards">
         <Card img={require('../../assets/expensey.png')} title="Expensey" desc="Expense tracking web app for individuals and small businesses." github_logo={require('../../assets/github_logo.png')} link_logo={require('../../assets/link.png')}
         github_link="https://github.com/ryanKrumbholz/expensify-clone" link="https://www.expensey.app" skills="React, Express, Mongo, Redux, & Node"/>
 
